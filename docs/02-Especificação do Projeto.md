@@ -8,37 +8,101 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-pie6{background-color:#38fff8;border-color:inherit;color:#000000;text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky" rowspan="2">
+    ![Ana Clara](docs/assets/02-Especificação do Projeto.assets/Persona - Ana Clara.png)
+    </th>
+    <th class="tg-pie6" colspan="2"><span style="font-weight:bold">Ana Clara</span></th>
+  </tr>
+  <tr>
+    <th class="tg-0pky">●Fundação: Abril de 2020<br><br>●Ocupação: Fundadora da<br>ONG Safe Animal</th>
+    <th class="tg-0pky">●Descrição: <br>Voluntários unidos <br>em defesa <br>dos animais.</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">●Frustração:As limitações,<br><br>para encontrar novos tutores<br><br>e possíveis parceiros.</td>
+    <td class="tg-0pky">●Motivação:<br>Salvar todos os animais,<br>em situação de rua.</td>
+    <td class="tg-0pky">●Objetivo:Dar um<br>bom lar para cada<br>animal resgatado.</td>
+  </tr>
+</tbody>
+</table>
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<table>
+<thead>
+  <tr>
+    <th rowspan="2">
+    ![Paulo Junqueira](docs/assets/02-Especificação do Projeto.assets/Persona - Paulo Junqueira.png)
+    </th>
+    <th colspan="2">Paulo Junqueira</th>
+  </tr>
+  <tr>
+    <th>●Idade: 34 anos<br><br>●Ocupação: Analista e<br>Desenvolvedor de Sistema<br>Sócio de uma Startup que <br>tem como objetivo trazer<br>inovações tecnológicas.<br></th>
+    <th>●Hobbies:<br>1.Natação<br>2.Jogar video game<br>3.Tocar violão<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>●Frustração:A dificuldade de encontrar<br> um ambiente onde tenha muitas opções<br>de ONGs para realizar a adoção de <br>maneira mais prática.<br></td>
+    <td>●Motivação:Se sente só,<br>e gostaria de um animal,<br>para fazer companhia.<br></td>
+    <td>●Objetivo:Adotar um,<br>animal de estimação.<br></td>
+  </tr>
+</tbody>
+</table>
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-99c3{background-color:#38fff8;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-99c3"><span style="font-weight:bold">Persona</span></th>
+    <th class="tg-99c3"><span style="font-weight:bold">Desejo</span></th>
+    <th class="tg-99c3"><span style="font-weight:bold">Para que</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">Ana Clara</td>
+    <td class="tg-0lax">Visualizar os perfis de pedidos de adoção e trabalho voluntário de maneira mais específica</td>
+    <td class="tg-0lax">Ter uma noção maior da situação do candidato a tutor ou trabalho voluntário</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ana Clara</td>
+    <td class="tg-0lax">Expor informações de contato, meio de doações e animais para adoção da ONG</td>
+    <td class="tg-0lax">Para divulgação centralizada de animais disponíveis, meio de sustento da ONG e meio de contato</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Paulo Junqueira</td>
+    <td class="tg-0lax">Sistema de busca por animal/porte específico</td>
+    <td class="tg-0lax">Achar com maior facilidade o animal desejado</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Paulo Junqueira</td>
+    <td class="tg-0lax">Visualizar os perfis das ONGs</td>
+    <td class="tg-0lax">Avaliar melhor a possibilidade da adoção</td>
+  </tr>
+</tbody>
+</table>
 
 ## Requisitos
 
@@ -46,46 +110,141 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-99c3{background-color:#38fff8;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-99c3"><span style="font-weight:bold">ID</span></th>
+    <th class="tg-99c3"><span style="font-weight:bold">Descrição</span></th>
+    <th class="tg-99c3"><span style="font-weight:bold">Prioridade</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">RF-1</td>
+    <td class="tg-0lax">Disponibilizar a visualização dos animais que estão para adoção</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-2</td>
+    <td class="tg-0lax">Possibilidade de se cadastrar como ONG ou Tutor</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-3</td>
+    <td class="tg-0lax">Oferta de um ou mais tipos de doação para as ONGs</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-4</td>
+    <td class="tg-0lax">Tutor precisa poder realizar o pedido de adoção</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-5</td>
+    <td class="tg-0lax">ONG precisam gerenciar os pedidos de adoção</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-6</td>
+    <td class="tg-0lax">Possibilidade do tutor de se voluntariar para trabalhos voluntários nas ONGs</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-7</td>
+    <td class="tg-0lax">Possibilidade da  ONG gerenciar as propostas de trabalho voluntário</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-8</td>
+    <td class="tg-0lax">Possibilidade da ONG de registar animais para adoção</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+</tbody>
+</table>
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-99c3{background-color:#38fff8;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-99c3"><span style="font-weight:bold">ID</span></th>
+    <th class="tg-99c3"><span style="font-weight:bold">Descrição</span></th>
+    <th class="tg-99c3"><span style="font-weight:bold">Prioridade</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">RNF-1</td>
+    <td class="tg-0lax">O site deve ser publicado em um ambiente acessível publicamente na internet (Relp.it,GitHub ,Heroku)</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RNF-2</td>
+    <td class="tg-0lax">O site deverá ser responsivo permitindo uma visualização em um celular de forma adequada</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RNF-3</td>
+    <td class="tg-0lax">O site deverá ter bom nível de contraste entre os elementos da tela em conformidade</td>
+    <td class="tg-0lax">Média</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RNF-4</td>
+    <td class="tg-0lax">O site deverá ser compatível com os principais navegadores do mercado como: (Chrome,Firefox,Edge)</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+</tbody>
+</table>
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-99c3{background-color:#38fff8;text-align:left;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-99c3"><span style="font-weight:bold">ID</span></th>
+    <th class="tg-99c3"><span style="font-weight:bold">Descrição</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">RE-1</td>
+    <td class="tg-0lax">O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 19/12/22</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RE-2</td>
+    <td class="tg-0lax">O aplicativo deve se restringir às tecnologias básicas da Web no Frontend</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RE-3</td>
+    <td class="tg-0lax">A equipe não pode subcontratar o desenvolvimento do trabalho</td>
+  </tr>
+</tbody>
+</table>

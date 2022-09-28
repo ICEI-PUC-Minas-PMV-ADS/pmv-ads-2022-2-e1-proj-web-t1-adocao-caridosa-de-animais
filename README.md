@@ -1,23 +1,22 @@
-# TÍTULO DO PROJETO
+# adocao-caridosa-de-animais (Nome temporario) (ver issue)[https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-adocao-caridosa-de-animais/issues/11]
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas (EAD)`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Semestre 2/2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Aplicacao que ajuda na visibilidade de ONGs solidarias que disponibilizam adoções de animais. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* [Luiz Eduardo de Jesus Santana](https://github.com/Luiz-Ossinho)
+* Adeilton Rodrigues Farias Junior
+* Pedro Rafael
+* Gustavo Henrique de Almeida
+* Carlos Vasconcelos
 
-## Orientador
-
-* Nome completo do professor 1
+## Orientadora: Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
