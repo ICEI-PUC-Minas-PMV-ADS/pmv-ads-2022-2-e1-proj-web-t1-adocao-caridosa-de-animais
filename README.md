@@ -8,6 +8,8 @@
 
 Aplicacao que ajuda na visibilidade de ONGs solidarias que disponibilizam adoções de animais. 
 
+[Projeto](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/146)
+
 ## Integrantes
 
 * [Luiz Eduardo de Jesus Santana](https://github.com/Luiz-Ossinho)
