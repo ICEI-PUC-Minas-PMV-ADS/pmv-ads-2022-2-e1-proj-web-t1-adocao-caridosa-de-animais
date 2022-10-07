@@ -6,8 +6,9 @@ Esta seção documenta os detalhes tecnicos da solução implementada e seus com
 
 A figura a seguir descreve a relação entre os componentes da solução
 
-![Diagrama de Componentes](docs/assets/05-Arquitetura da Solução.assets/Equipe Cão - Diagrama de solucao.png)
-<center>Figura XX - Arquitetura da Solução</center>
+      <img src="https://github.dev/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-adocao-caridosa-de-animais/blob/89296d0f62faf562bfdb566fc8bd90f4c7091f96/docs/assets/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.assets/Equipe%20C%C3%A3o%20-%20Diagrama%20de%20solucao.png" alt="Figura - Arquitetura da Solução"/>
+
+<center>Figura - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
 - **Páginas Web** - Meio de interacao com o usuario
