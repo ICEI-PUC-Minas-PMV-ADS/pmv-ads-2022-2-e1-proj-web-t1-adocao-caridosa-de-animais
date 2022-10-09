@@ -19,7 +19,7 @@ No projeto, foi escolhida a metodologia ágil Scrum como base para definição d
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando as Issues do GitHub, onde, toda vez que surge uma dúvida sobre o projeto ou que deve ser definido, uma issue é aberta e uma sprint é marcada, quando uma issue é definida, ou resolvida, ela é fechada e marcada como concluída.   
 A tela das Issues desenvolvida pelo grupo, está representada na figura.
 
-[![name](link to image on GH)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-adocao-caridosa-de-animais/issues)
+[![Tela de issues](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-adocao-caridosa-de-animais/blob/ae09ffdfcb70b3da2199899a15fb8bbbb2a8e976/docs/assets/03-Metodologia.assets/Tela%20de%20Issues.png?raw=true)](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-adocao-caridosa-de-animais/issues)
 
 ### Divisão de Papéis
 
