@@ -6,7 +6,7 @@ Esta seção documenta os detalhes tecnicos da solução implementada e seus com
 
 A figura a seguir descreve a relação entre os componentes da solução
 
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-adocao-caridosa-de-animais/main/docs/assets/05-Arquitetura%20da%20Solução.assets/Equipe%20Cão%20-%20Diagrama%20de%20solucao.png" alt="Figura - Arquitetura da Solução"/>
+![](assets/05-Arquitetura%20da%20Solu%C3%A7%C3%A3o.assets/Equipe%20C%C3%A3o%20-%20Diagrama%20de%20solucao.png)
 
 <center>Figura - Arquitetura da Solução</center>
 
@@ -18,20 +18,9 @@ A solução implementada conta com os seguintes módulos:
  - **Brasil API** - Web API comumente utilziada para obtencao de informacoes publicas, como endereco a partir de um CEP.
  - **Heroku** - Provedor de servidores na nuvem, vai direcionar o conteudo da pagina web para o navegador do usuario. 
 
-## Tecnologias Utilizadas
-
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
-
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
-
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A hospedagem foi feita na plataforma [Heroku](https://www.heroku.com/home). O host está vinculado ao repositório[ adocao-caridosa-de-animais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t1-adocao-caridosa-de-animais), ou seja, a cada push feito na branch "main" atualizará o host com as novas alterações. O acesso ao host disponivel no link abaixo:
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+> - [Link de acesso da Equipe Cão](https://equipecao.herokuapp.com/)
