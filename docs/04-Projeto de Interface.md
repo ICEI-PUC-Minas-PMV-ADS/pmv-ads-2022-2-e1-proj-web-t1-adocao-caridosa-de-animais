@@ -1,35 +1,88 @@
-
 # Projeto de Interface
+Dentre as preocupações para a modelagem da interface do sistema, estamos estabelecendo foco na usabilidade. Como o objetivo é facilitar a comunicação entre as ONGs e os tutores, será necessário uma interface intuitiva e responsiva, para abranger, também, o uso mobile. Pois, é um desejo que todas as pessoas possam buscar seus futuros animais de estimação e ajudar as ONGs, para isso, não pode haver o empecilho da aplicação só funcionar em um tipo de tela e nem a necessidade de muitos conhecimentos técnicos para seu uso.
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+# Fluxo do programa
+O diagrama apresentado na Figura 2 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de wireframe que se segue.
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
-
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
-## User Flow
-
-![Exemplo de UserFlow](img/userflow.jpg)
-
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de telas do site ou app. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
+![Figura 2  - Fluxo de telas do usuário]()
 
 ## Wireframes
+Conforme o fluxo de telas do projeto, apresentado no item anterior, as telas do sistemas são apresentadas em detalhes nos itens que seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 3
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+![Figura 3  - Layout padrão]()
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+## Tela - Home Page
+A tela Home tem como o objetivo fazer uma introdução ao projeto. O bloco de conteúdo apresenta um carrossel onde irá exibir notícias e eventos em que estão em aberto. Logo abaixo do carrossel irá conter textos e vídeos com o objetivo de realizar a introdução ao projeto.
+
+![Figura 4  - Tela Home page]()
+
+## Tela - Pesquisa Animais 
+Na tela de pesquisa de animais é possível observar todos os animais que se encontram disponíveis para adoção, no canto esquerdo existe uma barra com o filtro de pesquisa com os campos: Estado, Cidade, Porte, Espécie, Idade, Sexo.
+
+![Figura 5 - Tela de pesquisa de animais]()
+
+## Tela - Pesquisa Ongs
+Na tela de pesquisa de Ongs é possível observar todas as Ongs que se encontram cadastradas e ativas na plataforma, no canto esquerdo existe uma barra com o filtro de pesquisa com os campos: Estado, Cidade.
+
+![Figura 6  - Tela de pesquisa de animais]()
+
+## Tela - Trabalhos voluntários
+Na tela de pesquisa de Trabalhos voluntários é possível observar todos os Trabalhos voluntários que se encontram cadastrados e ativos na plataforma, no canto esquerdo existe uma barra com o filtro de pesquisa com os campos: Estado, Cidade.
+
+![Figura 7  - Tela de Trabalhos voluntários]()
+
+## Tela - Solicitar adoção
+Na tela de solicitação de adoção é possível observar toda as informações do animal selecionado, exibindo os campos: Nome, Sexo, Porte, Peso, Ong, Endereço, Descrição.
+
+![Figura 8  - Tela de Solicitar adoção]()
+
+## Tela - Voluntariar-se
+Na tela de voluntariar-se é possível observar a descrição da vaga exibindo os campos: Nome, Endereço, Fundador, Descrição. E exibindo o botão Voluntariar-se para submeter a inscrição.
+
+![Figura 9  - Tela de Voluntariar-se]()
+
+## Tela - Configuração da conta Tutor
+Na tela de Configurar Tutor é possível editar as seguintes informações do Tuto: Foto, Nome, E-Mail, Cep, Estado, Cidade, Número, Endereço, Complemento.
+
+![Figura 10  - Tela Configuração da conta Tutor]()
+
+## Tela - Configuração da Conta Usuário 
+Na tela de Configurar conta é possível editar as seguintes informações do usuário: Foto, Nome, E-Mail.
+
+![Figura 11 - Tela Configuração da Conta Usuário]()
+
+## Tela - Gerenciamento Animais
+Na tela de gerenciamento de animais é possível adicionar e observar todos os animais que se encontram disponíveis para adoção, no canto esquerdo existe uma barra com o filtro de pesquisa com os campos: Porte, Espécie, Idade, Sexo. No canto superior existe uma barra de pesquisa, ao lado do botão Adicionar Animal.
+
+![Figura 12 - Tela Gerenciamento de Animais]()
+
+## Tela - Gerenciamento Trabalhos Voluntários 
+
+Na tela de gerenciamento de Trabalhos voluntários é possível adicionar e observar todos os Trabalhos voluntários que se encontram disponíveis, no canto superior existe uma barra de pesquisa, ao lado do botão Adicionar Trabalho Voluntário.
+
+![Figura 13 - Tela Gerenciamento de Trabalhos Voluntários]()
+
+## Tela - Adicionar Animal
+Na tela de Adicionar Animal é possível inserir toda a informação do animal, exibindo os campos: Imagem, Nome, Sexo, Porte, Idade, Peso, Ong, Endereço, Descrição. Exibindo o botão Adicionar para submeter.
+
+![Figura 14 - Tela Adicionar Animal]()
+
+## Tela - Adicionar Trabalho voluntário
+Na tela de Adicionar Trabalho Voluntário é possível inserir a informação do Trabalho, exibindo o campo: Descrição. Exibindo o botão Confirmar para submeter.
+
+![Figura 15 - Tela Adicionar Trabalho Voluntário]()
+
+## Tela - Cadastro
+Na tela de Realizar cadastro é possível preencher os campos: Nome, Email, Senha, Repetir Senha, Tipo de usuário.
+
+![Figura 16 - Tela Cadastro]()
+
+## Tela - Login
+Na tela de Login é possível preencher os campos: Nome, Senha. Exibindo o botão entrar e o link para recuperar a senha.
+
+![Figura 17 - Tela Login]()
+
+
+
+
+
