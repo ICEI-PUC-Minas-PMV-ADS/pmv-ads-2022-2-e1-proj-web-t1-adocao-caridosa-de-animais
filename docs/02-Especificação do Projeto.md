@@ -74,6 +74,21 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
     <td class="tg-0lax">Para divulgação centralizada de animais disponíveis, meio de sustento da ONG e meio de contato</td>
   </tr>
   <tr>
+    <td class="tg-0lax">Ana Clara</td>
+    <td class="tg-0lax">Expor meio de doações.</td>
+    <td class="tg-0lax">O interessado possa realizar as doações.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ana Clara</td>
+    <td class="tg-0lax">Expor informações de animais para adoção da ONG.</td>
+    <td class="tg-0lax">O interessado possa ver qual animal adotar.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Ana Clara</td>
+    <td class="tg-0lax">Expor trabalhos voluntários</td>
+    <td class="tg-0lax">O interessado possa se voluntariar.</td>
+  </tr>
+  <tr>
     <td class="tg-0lax">Paulo Junqueira</td>
     <td class="tg-0lax">Sistema de busca por animal/porte específico</td>
     <td class="tg-0lax">Achar com maior facilidade o animal desejado</td>
@@ -82,6 +97,21 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
     <td class="tg-0lax">Paulo Junqueira</td>
     <td class="tg-0lax">Visualizar os perfis das ONGs</td>
     <td class="tg-0lax">Avaliar melhor a possibilidade da adoção</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Paulo Junqueira</td>
+    <td class="tg-0lax">Entrar em contato com a ONG para realizar o pedido de adoção.</td>
+    <td class="tg-0lax">Realizar a adoção do animal.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Paulo Junqueira</td>
+    <td class="tg-0lax">Entrar em contato com a ONG para realizar a doação</td>
+    <td class="tg-0lax">Realizar a doação para as ONGs.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Paulo Junqueira</td>
+    <td class="tg-0lax">Entrar em contato com a ONG para se voluntariar.</td>
+    <td class="tg-0lax">Realizar o pedido para ser voluntário da ONG.</td>
   </tr>
 </tbody>
 </table>
@@ -103,42 +133,47 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 <tbody>
   <tr>
     <td class="tg-0lax">RF-1</td>
-    <td class="tg-0lax">Disponibilizar a visualização dos animais que estão para adoção</td>
+    <td class="tg-0lax">O site deve disponibilizar a visualização dos animais que estão para adoção.</td>
     <td class="tg-0lax">Alta</td>
   </tr>
   <tr>
     <td class="tg-0lax">RF-2</td>
-    <td class="tg-0lax">Possibilidade de se cadastrar como ONG ou Tutor</td>
+    <td class="tg-0lax">O site deve possibilitar o cadastramento do interessado como ONG.</td>
     <td class="tg-0lax">Alta</td>
   </tr>
   <tr>
     <td class="tg-0lax">RF-3</td>
-    <td class="tg-0lax">Oferta de um ou mais tipos de doação para as ONGs</td>
+    <td class="tg-0lax">O site deve possibilitar o cadastramento do interessado como tutor.</td>
     <td class="tg-0lax">Alta</td>
   </tr>
   <tr>
     <td class="tg-0lax">RF-4</td>
-    <td class="tg-0lax">Tutor precisa poder realizar o pedido de adoção</td>
+    <td class="tg-0lax">O site deve ofertar um ou mais tipos de doação para as ONGs.</td>
     <td class="tg-0lax">Alta</td>
   </tr>
   <tr>
     <td class="tg-0lax">RF-5</td>
-    <td class="tg-0lax">ONG precisam gerenciar os pedidos de adoção</td>
+    <td class="tg-0lax">O site deve possibilitar que o tutor realize o pedido de adoção</td>
     <td class="tg-0lax">Alta</td>
   </tr>
   <tr>
     <td class="tg-0lax">RF-6</td>
-    <td class="tg-0lax">Possibilidade do tutor de se voluntariar para trabalhos voluntários nas ONGs</td>
+    <td class="tg-0lax">O site deve possibilitar que a ONG gerencie os pedidos de adoção.</td>
     <td class="tg-0lax">Alta</td>
   </tr>
   <tr>
     <td class="tg-0lax">RF-7</td>
-    <td class="tg-0lax">Possibilidade da  ONG gerenciar as propostas de trabalho voluntário</td>
+    <td class="tg-0lax">O site deve possibilitar que o tutor se voluntarie para trabalhos voluntários nas ONGs.</td>
     <td class="tg-0lax">Alta</td>
   </tr>
   <tr>
     <td class="tg-0lax">RF-8</td>
-    <td class="tg-0lax">Possibilidade da ONG de registar animais para adoção</td>
+    <td class="tg-0lax">O site de possibilitar que a ONG gerencie as propostas de trabalho voluntário</td>
+    <td class="tg-0lax">Alta</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">RF-9</td>
+    <td class="tg-0lax">O site deve possibilitar que a ONG registre animais para adoção.</td>
     <td class="tg-0lax">Alta</td>
   </tr>
 </tbody>
