@@ -7,16 +7,21 @@ Diante disso, torna-se fundamental que exista um canal de comunicação entre as
 
 ## Problema
 
-Como fora explicado, há um problema para a adoção de animais de rua. Este problema pode ser diminuído facilitando o método de busca das pessoas que estejam interessadas na adoção. 
+Há um problema para a adoção de animais de rua e a ajuda de ONGs que estejam necessitadas. Esse problema vem da falta de comunicação e relacionamento entre as ONGs e os interessados em voluntariar-se ou adotar os animais. Tal problema pode ser diminuído facilitando o método de busca das pessoas que estejam interessadas nessas ações, tornando as ONGs mais visíveis.. 
 
 ## Objetivos
 
-Temos como objetivo principal facilitar a interação de ONGs, com o foco na adoção de animais em condições precárias. O público interessado pode acolher animais, realizar doação de suprimentos ou e/ou se voluntariar para serviços em uma ONG específica.
+Objetivo principal: 
+Desenvolver uma aplicação Web que irá facilitar a interação entre o público interessado e as ONGs.
+
+Objetivos específicos:
+As ONGs podem cadastrar animais e solicitar doações ou voluntários;
+O público interessado pode acolher animais, realizar doação de suprimentos ou e/ou se voluntariar para serviços em uma ONG específica.
 
 ## Justificativa
 
-De acordo com Rosângela Gebara, gerente de projetos da Ampara Animal, ONG parceira da Cobasi, o índice de abandono e de recolhimento de animais aumentou, em média, 61% entre julho de 2020 até o terceiro trimestre de 2021. Apesar dos números de abandono terem aumentado, poucas soluções foram desenvolvidas para resolver a problemática. Então torna-se necessário desenvolver outras soluções para esse problema. Uma possível ideia é facilitar o encontro dos animais, abandonados, com seus possíveis tutores e possíveis doadores, que queiram ajudar as ONGs.
+De acordo com Rosângela Gebara, gerente de projetos da Ampara Animal, ONG parceira da Cobasi, o índice de abandono e de recolhimento de animais aumentou, em média, 61% entre julho de 2020 até o terceiro trimestre de 2021 [4]. Apesar dos números de abandono terem aumentado, poucas soluções foram desenvolvidas para resolver a problemática. Então torna-se necessário desenvolver outras soluções para esse problema. Com o desenvolvimento desta plataforma, será possível então, facilitar o encontro dos animais abandonados, com seus possíveis tutores e possíveis doadores, que queiram ajudar as ONGs.
 
 ## Público-Alvo
 
-Apesar de todos se beneficiarem com essa solução, o foco será as ONGs e as pessoas que desejam ter seus animais de estimação, além de afetar a vida dos animais que poderão ter a oportunidade de ganhar um lar, uma família e amor das pessoas que a adotaram.
+As ONGs e as pessoas que desejam ter seus animais de estimação e se voluntariar.
