@@ -13,11 +13,11 @@ Aplicacao que ajuda na visibilidade de ONGs solidarias que disponibilizam adoç�
 
 ## Integrantes
 
-* [Luiz Eduardo de Jesus Santana](https://github.com/Luiz-Ossinho)
-* [Adeilton Rodrigues Farias Junior]()
-* [Pedro Rafael](https://github.com/Rafael-Pedro)
+* [Adeilton Rodrigues Farias Junior](https://github.com/Adeilton-Ro)
+* [Carlos Alberto Mendoça Vasconcelos](https://github.com/Vasconcelos-Carlos)
 * [Gustavo Henrique de Almeida](https://github.com/GusTav0HenriQue)
-* [Carlos Vasconcelos](https://github.com/Vasconcelos-Carlos)
+* [Luiz Eduardo de Jesus Santana](https://github.com/Luiz-Ossinho)
+* [Pedro Rafael da Cruz Almeida](https://github.com/Rafael-Pedro)
 
 ## Orientadora: Joyce Christina de Paiva Carvalho
 

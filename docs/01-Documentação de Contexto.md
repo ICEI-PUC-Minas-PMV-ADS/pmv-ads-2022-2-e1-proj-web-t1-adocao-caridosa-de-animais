@@ -7,7 +7,7 @@ Diante disso, torna-se fundamental que exista um canal de comunicação entre as
 
 ## Problema
 
-Há um problema para a adoção de animais de rua e a ajuda de ONGs que estejam necessitadas. Esse problema vem da falta de comunicação e relacionamento entre as ONGs e os interessados em voluntariar-se ou adotar os animais. Tal problema pode ser diminuído facilitando o método de busca das pessoas que estejam interessadas nessas ações, tornando as ONGs mais visíveis.. 
+Há um problema para a adoção de animais de rua e a ajuda de ONGs que estejam necessitadas. Esse problema vem da falta de comunicação e relacionamento entre as ONGs e os interessados em voluntariar-se ou adotar os animais. Tal problema pode ser diminuído facilitando o método de busca das pessoas que estejam interessadas nessas ações, tornando as ONGs mais visíveis. 
 
 ## Objetivos
 
