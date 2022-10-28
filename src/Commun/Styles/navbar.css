@@ -1,0 +1,21 @@
+.nav-link {
+    color: aliceblue;
+}
+
+.nav-link:hover{
+    color: #493287;
+}
+
+.navbar {
+    background-color: #558833;
+}
+
+.nav-login-button{
+    background-color: #493287;
+    color: white;
+}
+.nav-signup-button{
+    background-color: white;
+    border-color: #493287;
+    color: #493287;
+}
