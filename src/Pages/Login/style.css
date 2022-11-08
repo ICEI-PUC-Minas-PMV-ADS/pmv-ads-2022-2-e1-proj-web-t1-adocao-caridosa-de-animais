@@ -1,0 +1,41 @@
+main{
+    background: linear-gradient(#558833, white);
+
+    width: 100vw;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box{
+    width: 400px;
+    padding: 50px;
+    border-radius: 4px;
+
+    background-color: lightgrey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+p{
+    color: #558833;
+}
+
+a{
+    color: #493287;
+}
+
+div.input{
+    width: 300px;
+}
+
+button.btn.btn-primary{
+    width: 100px;
+    background-color: #558833;
+}
