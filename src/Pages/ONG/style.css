@@ -1,7 +1,11 @@
-.searchbox-container {
+.accordion-container {
+    width: 300px;
+}
+
+.search-box-container {
     margin: 1%;
 }
 
-.accordion-container {
-    width: 25vw;
+.card{
+    width: 300px;
 }
