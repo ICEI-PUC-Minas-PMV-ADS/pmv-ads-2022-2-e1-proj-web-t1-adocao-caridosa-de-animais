@@ -9,9 +9,9 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="../../Commun/Styles/navbar.css">
-  
 
-  <title>Pesquisa de Animais</title>
+
+  <title>Gerenciamento de Animais</title>
 </head>
 
 <body>
@@ -28,40 +28,61 @@
             <a class="nav-link" href="#">Animais</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../PesquisaAnimais/Pesquisa_Animais.html">Quero adotar</a>
+            <a class="nav-link" href="../PesquisaAnimais/index.html">Quero adotar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../GerenciarTrabalhoVoluntario/GerenciarTrabalhoVoluntario.html">Trabalhos voluntários</a>
+            <a class="nav-link" href="../GerenciarTrabalhoVoluntario/index.html">Trabalhos
+              voluntários</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ONGs</a>
           </li>
         </ul>
-        <a href="src/Pages/Login/index.html" class="btn btn-secondary nav-login-button">Entrar</a>
-        <a href="src/Pages/SignUp/index.html" class="btn btn-outline-primary nav-signup-button">Quero ajudar!</a>
+        <div class="btn btn-secondary" style="background-color:#558833; width: 60px; border-style: hidden;">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="bi bi-person-circle"
+              viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+              <path fill-rule="evenodd"
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+            </svg>
+          </a>
+        </div>
+        <div class="btn btn-secondary" style="background-color:#558833; width: 60px; border-style: hidden;">
+          <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="bi bi-sort-down" viewBox="0 0 16 16">
+              <path
+                d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293V2.5zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z" />
+            </svg>
+          </a>
+
+        </div>
       </div>
     </div>
   </nav>
 
-
   <main>
-    <div class="card" style="width: 100%;">
-      <div class="card-body" style="display: flex; justify-content: center; align-items: center;">
-          <form class="form-inline">
-              <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar..." aria-label="Pesquisar" size="80">
-          </form>
+    <div class="card row d-flex flex-row" style="margin: auto; padding: 20px;">
+      <div class="col-8" style="padding-left: 400px ;">
+        <form>
+          <input class="form-control " type="search" placeholder="Pesquisar..." aria-label="Pesquisar">
+        </form>
+      </div>
+      <div class="col-auto" style="margin: auto;">
+        <a href="#" class="btn btn-secondary" style=" background-color: rgb(14, 121, 14);">Adicionar animal!</a>
       </div>
     </div>
 
     <div class="d-flex">
       <div class="accordion-container accordion accordion-container">
-          <div class="accordion-item accordion-states">
-            
-          </div>
-          <div class="accordion-item accordion-cities">
-            
-          </div>
+        <div class="accordion-item accordion-states">
 
+        </div>
+        <div class="accordion-item accordion-cities">
+
+        </div>
+
+        <div class="accordion" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingPorte">
               <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -72,13 +93,24 @@
             <div id="collapsePorte" class="accordion-collapse collapse" aria-labelledby="headingPorte"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Grande
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Médio
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Pequeno
+                  </label>
+                </div>
               </div>
             </div>
           </div>
@@ -93,13 +125,18 @@
             <div id="collapseEspecie" class="accordion-collapse collapse" aria-labelledby="headingEspecie"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Cachorro
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Gato
+                  </label>
+                </div>
               </div>
             </div>
           </div>
@@ -114,13 +151,32 @@
             <div id="collapseIdade" class="accordion-collapse collapse" aria-labelledby="headingIdade"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    0 a 6 meses
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    7 meses a 5 anos
+                  </label>
+                </div>
+              </div>
+              <div class="accordion-body">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    6 a 10 anos
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    11 anos ou mais
+                  </label>
+                </div>
               </div>
             </div>
           </div>
@@ -135,17 +191,22 @@
             <div id="collapseSexo" class="accordion-collapse collapse" aria-labelledby="headingSexo"
               data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse
-                plugin adds the appropriate classes that we use to style each element. These classes control the overall
-                appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                custom
-                CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
-                the
-                <code>.accordion-body</code>, though the transition does limit overflow.
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Macho
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Fêmea
+                  </label>
+                </div>
               </div>
             </div>
           </div>
-      
+        </div>
       </div>
 
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4">
@@ -153,7 +214,13 @@
           <div class="card">
             <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Female.png"
+                  style="height: 40px;width: 50px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
@@ -171,7 +238,60 @@
           <div class="card">
             <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Male.png" style="height: 40px;width: 65px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Porte: </li>
+              <li class="list-group-item">Espécie: </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">ONG.link</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Female.png"
+                  style="height: 40px;width: 50px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Porte: </li>
+              <li class="list-group-item">Espécie: </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">ONG.link</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Female.png"
+                  style="height: 40px;width: 50px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
@@ -189,7 +309,35 @@
           <div class="card">
             <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Male.png" style="height: 40px;width: 65px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Porte: </li>
+              <li class="list-group-item">Espécie: </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">ONG.link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Female.png"
+                  style="height: 40px;width: 50px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
@@ -207,7 +355,36 @@
           <div class="card">
             <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Male.png" style="height: 40px;width: 65px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Porte: </li>
+              <li class="list-group-item">Espécie: </li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">ONG.link</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
+            <div class="card-body">
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Female.png"
+                  style="height: 40px;width: 50px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
@@ -225,7 +402,12 @@
           <div class="card">
             <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Male.png" style="height: 40px;width: 65px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
@@ -238,12 +420,17 @@
             </div>
           </div>
         </div>
-
         <div class="col">
           <div class="card">
             <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
             <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
+              <div class="row row-cols-2">
+                <h5 class="card-title">ONG.Name</h5>
+                <img src="../../Commun/Assets/Gender Symbol - Female.png"
+                  style="height: 40px;width: 50px; margin: auto;">
+              </div>
+            </div>
+            <div class="card-body">
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
             </div>
@@ -256,43 +443,6 @@
             </div>
           </div>
         </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Porte: </li>
-              <li class="list-group-item">Espécie: </li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">ONG.link</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">ONG.Name</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Porte: </li>
-              <li class="list-group-item">Espécie: </li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">ONG.link</a>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </main>
