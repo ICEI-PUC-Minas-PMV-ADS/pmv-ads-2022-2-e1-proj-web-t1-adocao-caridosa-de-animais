@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../Pages/Home/style.css">
+  <link rel="stylesheet" href="../../Commun/Styles/navbar.css">
+  <title>Gerenciar Trabalho Voluntario</title>
+  <style>    
+    .row {
+        padding: auto;
+        padding-top: 1%;
+    }
+</style>
+</head>
+
+
+<body>
+
+  <div class="modal fade" id="adicionar-trabalho">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body d-flex align-items-center justify-content-center flex-column gap-3">
+          <h2>Adicionar trabalho</h2> 
+          <div class="form-floating">
+            <input class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></input>
+            <label for="floatingTextarea2">Descrição de trabalho</label>
+          </div>
+          <button type="button" class="btn btn-success">confirmar</button>
+        </div>
+        
+          
+      </div>
+    </div>  
+  </div>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><img src="../../Commun/Assets/Logo.png" alt="a"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Animais</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../GerenciarTrabalhoVoluntario/index.html">Trabalhos voluntários</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../PesquisaAnimais/index.html">Quero adotar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../ONG/index.html">ONGs</a>
+          </li>
+        </ul>
+        <a href="../../Pages/Login/index.html" class="btn btn-secondary nav-login-button">Entrar</a>
+        <a href="../../Pages/SignUp/index.html" class="btn btn-outline-primary nav-signup-button">Quero ajudar!</a>
+      </div>
+    </div>
+  </nav>
+
+  <main style="background-color: rgb(211, 209, 209);">
+    <div class="card">
+        <div class="card-body" style="display: flex; justify-content: center; align-items: center;">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" size="90">
+                <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#adicionar-trabalho">Adicionar trabalho voluntário!</button>
+            </form>
+        </div>
+      </div>
+
+    <div class="container text-center" >
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem; " >
+                    <img class="card-img-top" src="../../Commun/Assets/Blank.png" alt="Imagem de capa do card">
+        
+                    <div class="card-body">
+                    <h5 class="card-title">Trabalho Voluntário</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem; " >
+                    <img class="card-img-top" src="../../Commun/Assets/Blank.png" alt="Imagem de capa do card">
+        
+                    <div class="card-body">
+                    <h5 class="card-title">Trabalho Voluntário</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem; " >
+                    <img class="card-img-top" src="../../Commun/Assets/Blank.png" alt="Imagem de capa do card">
+        
+                    <div class="card-body">
+                    <h5 class="card-title">Trabalho Voluntário</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class="card" style="width: 18rem; " >
+                    <img class="card-img-top" src="../../Commun/Assets/Blank.png" alt="Imagem de capa do card">
+        
+                    <div class="card-body">
+                    <h5 class="card-title">Trabalho Voluntário</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem; " >
+                    <img class="card-img-top" src="../../Commun/Assets/Blank.png" alt="Imagem de capa do card">
+        
+                    <div class="card-body">
+                    <h5 class="card-title">Trabalho Voluntário</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem; " >
+                    <img class="card-img-top" src="../../Commun/Assets/Blank.png" alt="Imagem de capa do card">
+        
+                    <div class="card-body">
+                    <h5 class="card-title">Trabalho Voluntário</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>       
+   
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
+</html>

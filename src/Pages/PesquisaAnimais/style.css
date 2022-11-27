@@ -1,0 +1,17 @@
+.accordion-container {
+    width: 300px;
+}
+
+.search-box-container {
+    margin: 1%;
+}
+
+.card{
+    width: 300px;
+}
+.informations{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

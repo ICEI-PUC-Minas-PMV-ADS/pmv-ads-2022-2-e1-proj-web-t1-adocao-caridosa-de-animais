@@ -1,0 +1,39 @@
+.accordion-container {
+    width: 300px;
+}
+
+.search-box-container {
+    margin: 1%;
+}
+
+.card{
+    width: 300px;
+}
+
+
+.ong-card{
+    margin-top: 20px;
+
+    border-radius: 4px;
+    width: 300px;
+    height: 300px;
+
+    background-color: white;
+
+    box-shadow:         5px 5px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.ong-card img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+
+
+}
