@@ -15,6 +15,25 @@
 </head>
 
 <body>
+
+  <div class="modal fade" id="adocao">
+    <div class="modal-dialog">
+        <div class="modal-content d-flex flex-row">
+          <img class="img_animal" src="../../Commun/Assets/Animal - Imagem.png">
+          <div class="informations">
+            <h5>Nome: Afollow</h5>
+            <h5>Sexo: <img class="img_sexo" src="../../Commun/Assets/Gender Symbol - Male.png"></h5>
+            <h5>Porte: Big gigante</h5>
+            <h5>Idade: 1 ano</h5>
+            <h5>ONG: Animal Care</h5>
+            <h5>Peso: 300g</h5>
+            <h5>Endereço: Rua seila das quantas numero:inexistente<h5>
+            <h5>Descrição: Resgatado de maus tratos</h5>
+            <button class="btn btn-success">Adotar!</button>
+          </div>
+        </div>
+    </div>
+  </div>
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="/"><img src="../../Commun/Assets/Logo.png" alt="a"></a>
@@ -31,7 +50,8 @@
             <a class="nav-link" href="../PesquisaAnimais/Pesquisa_Animais.html">Quero adotar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../GerenciarTrabalhoVoluntario/GerenciarTrabalhoVoluntario.html">Trabalhos voluntários</a>
+            <a class="nav-link" href="../GerenciarTrabalhoVoluntario/GerenciarTrabalhoVoluntario.html">Trabalhos
+              voluntários</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">ONGs</a>
@@ -190,7 +210,7 @@
 
       </div>
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-4" data-bs-toggle="modal" data-bs-target="#adocao">
         <div class="col">
           <div class="card">
             <img src="../../Commun/Assets/Animal - Imagem.png" class="card-img-top">
