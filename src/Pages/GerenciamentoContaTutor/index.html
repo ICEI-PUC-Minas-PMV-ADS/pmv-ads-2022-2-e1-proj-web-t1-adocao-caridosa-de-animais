@@ -8,10 +8,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="../../Commun/Styles/navbar.css">
-  <title>Gerenciamento Conta Tutor</title>
+  <title>Gerenciamento ONGs</title>
 </head>
 
 <style>
+  body{ background-color: white;}
+
     main{
     background: linear-gradient(#558833, white);
 
@@ -21,21 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-    html
-    {
-    position:fixed;
-    width:100%;
-    height:100%;
-}
-
-    #Salvar {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    }
 </style>
 <body>
     <nav class="navbar navbar-expand-lg">
@@ -47,17 +35,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link" href="../PesquisaAnimais/index.html">Quero adotar</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../GerenciarTrabalhoVoluntario/index.html">Trabalhos voluntários</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="../ONG/index.html">ONGs</a>
-                    </li>
-                  </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../PesquisaAnimais/index.html">Quero adotar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../GerenciarTrabalhoVoluntario/index.html">Trabalhos voluntários</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../ONG/index.html">ONGs</a>
+                </li>
+              </ul>
                 <div class="btn btn-secondary" style="background-color:#558833; width: 60px; border-style: hidden;">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="bi bi-person-circle" viewBox="0 0 16 16">
@@ -79,78 +67,29 @@
     </nav>
 
   <main>
-    <div class="card">
-      <div class="card-body" style="padding: 10%;">
-        <div class="row" style="display: flex;  justify-content: center; align-items:flex-end;">
-            <div class="col">
-                <img src="../../Commun/Assets/Ellipse.png" class="card-img-top" alt="..." style="padding: 5%;">
-
-                <button type="button" class="btn btn-success" style= "color: black; Background-color: rgb(125, 48, 180); margin-bottom: 5%; margin-left: 70%;">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16" >
-                    <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"></path>
-                  </svg>
-                </button>
-
-                <form>
-                    <input type="text" aria-label="First name" class="form-control" placeholder="Nome">
-                    <br>
-                    <input type="text" aria-label="First name" class="form-control"  placeholder="Email">
-                </form>
-            </div>
-            <div class="col">
-
-                <div style="text-align:justify; padding-top: 5%;">
-                    <h2>Editar informações do perfil</h2>
-                </div>
-
-              <div class="row" style="padding-top: 5%;">
-                    <div class="col-md-8">
-                        <input type="text"  class="form-control" placeholder="CEP">  
-
-                    </div>
-
-                    <div class="col-md-4">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected> -- </option>
-                        </select>
-
-                    </div>
-
-              </div>
-
-              <div class="row"style="margin-top: 40px;">
-                    <div class="col-md-8">
-                        <input type="text"  class="form-control" placeholder="--">  
-
-                    </div>
-
-                    <div class="col-md-4">
-                        <input type="text"  class="form-control" placeholder="Nº">  
-                    </div>
-
-              </div>
-
-              <div class="row"style="margin-top: 40px;">
-                    <div class="col-md-12"> 
-                        <input type="text"  class="form-control" placeholder="Endereço">  
-                    
-                    </div>
-
-              </div>
-
-              <div class="row" style="margin-top: 50px;">
-                    <div class="col-md-12"> 
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Complemento"></textarea>
-                    </div>
-
-              </div>
-
-            </div>  
+    <div class="card" style="width: 600px; margin-top: 300px;">
+      <div style="text-align: center; padding-top: 5%;">
+        <h2>Editar informações do perfil</h2>
       </div>
-     </div>
 
-     <div id="Salvar">
-        <button type="button" class="btn btn-success"  style="width: 10rem;">Salvar</button>
+      <div class="card-body"; style="padding: 15%;padding-top: 5%;">
+
+        <img src="../../Commun/Assets/Ellipse.png" class="card-img-top" alt="..." style="padding: 5%;">
+
+        <button type="button" class="btn btn-success" style= "color: black; Background-color: rgb(125, 48, 180); margin-bottom: 5%; margin-left: 70%;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16" >
+            <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"></path>
+          </svg>
+        </button>
+
+        <form>
+          <input type="text" aria-label="First name" class="form-control" placeholder="Nome">
+          <br>
+          <input type="text" aria-label="First name" class="form-control"  placeholder="Email">
+        </form>
+
+        <button type="button" class="btn btn-success" style="margin-left: 40%; margin-top: 10%;">Salvar</button>
+      </div>
     </div>
   </main>
 
