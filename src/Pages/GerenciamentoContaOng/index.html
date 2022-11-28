@@ -8,6 +8,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="../../Commun/Styles/navbar.css">
+  <link rel="stylesheet" href="../../Commun/Styles/acoes-da-conta.css">
+
   <title>Gerenciamento ONGs</title>
 </head>
 
@@ -27,6 +29,18 @@ body{
 }
 </style>
 <body>
+  <div class="modal fade" id="actions">
+    <div class="modal-dialog">
+        <div class="modal-content d-flex flex-row">
+            <div class="options">
+                <h1>Ações Da Conta</h1>
+                <a href="../GerenciamentoContaOng/index.html"><h5><img src="../../Commun/Assets/Vector.png"> Configuraçoes de Conta</h5></a>
+                <a href="../GerenciarTrabalhoVoluntario/index.html"><h5><img src="../../Commun/Assets/journal_human.png"> Gerenciamento de Trabalho</h5></a>
+                <a href="../GerenciamentoAnimais/index.html"><h5><img src="../../Commun/Assets/journal_animal.png"> Gerenciamento de Animais</h5></a>
+            </div>
+        </div>
+    </div>
+  </div>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="/"><img src="../../Commun/Assets/Logo.png" alt="a"></a>
@@ -47,7 +61,7 @@ body{
                   <a class="nav-link" href="../ONG/index.html">ONGs</a>
                 </li>
               </ul>
-                <div class="btn btn-secondary" style="background-color:#558833; width: 60px; border-style: hidden;">
+                <div class="btn btn-secondary" style="background-color:#558833; width: 60px; border-style: hidden;" data-bs-toggle="modal" data-bs-target="#actions">
                     <a href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" class="bi bi-person-circle" viewBox="0 0 16 16">
                             <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
