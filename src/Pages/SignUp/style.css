@@ -1,0 +1,53 @@
+main{
+    background: linear-gradient(#558833, white);
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box{
+    width: 400px;
+    padding: 50px;
+    border-radius: 4px;
+
+    background-color: lightgrey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a{
+    color: #493287;
+}
+
+div.input{
+    width: 300px;
+}
+
+button.btn.btn-primary{
+    width: 100px;
+    background-color: #558833;
+}
+
+.step-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #558833;
+    padding: 5px;
+    border-radius: 4px;
+    
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
